@@ -72,7 +72,7 @@ We can see that this is the same instance as the key attached, security group an
 ### Creating an EBS volume of 4GB
 We can create an Elastic Block Storage volume of any size in AWS 
 
-`ws ec2 create-volume --size 4 --availability-zone ap-south-1b`
+`aws ec2 create-volume --size 4 --availability-zone ap-south-1b`
 
 ![image](https://user-images.githubusercontent.com/55775311/95862129-112bf300-0d80-11eb-9fe2-402a0ea004cc.png)
 
